@@ -1,0 +1,18 @@
+{
+    "name": "task_1",
+    "version": "1.0.0",
+    "description": "Task with arrays",
+    "main": "DisplayName.js",
+    "dependencies": {
+        "chai": "^4.1.2",
+        "node-static": "^0.7.10"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "test",
+        "start": "node server.js",
+        "debug": "node --nolazy --inspect-brk=9229 ArrayHandler.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
