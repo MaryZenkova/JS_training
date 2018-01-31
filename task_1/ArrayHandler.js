@@ -1,5 +1,3 @@
-console.log(createArr(5, 3));
-
 var multiArray = [
     [
         [1, [1.1]], 2, 3
@@ -15,11 +13,11 @@ var multiArray = [
 
 console.log(flatten(multiArray));
 
-function createArr(index, length) {
+module.exports.createArr = function createArr(length) {
     var array = new Array();
 
     for (i = 0; i < length; i++) {
-        array[i] = index * index;
+        array[i] = i * i;
     };
 
     return array;
